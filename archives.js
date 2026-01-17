@@ -75,11 +75,12 @@ function populateTable() {
  * Switch LC ⇄ SC button
  ***************************************************/
 function switchCourse() {
-    if (isLC) window.location.href = "archivesSC.html";
-    else window.location.href = "archivesLC.html";
+    if (isLC) window.location.href = "ArchivesSC.html";
+    else window.location.href = "ArchivesLC.html";
 }
 
 // Run on page load
 populateTable();
+
 
 
