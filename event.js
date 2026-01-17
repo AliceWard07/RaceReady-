@@ -301,12 +301,13 @@ function sortTable(key) {
 
 // ✅ FIXED BACK BUTTON (ONLY CHANGE HERE)
 function goBack() {
-    if(course === "LC") window.location.href = "archivesLC.html";
-    else window.location.href = "archivesSC.html";
+    if(course === "LC") window.location.href = "ArchivesLC.html";
+    else window.location.href = "ArchivesSC.html";
 }
 
 // Initial load
 populateYearFilter();
 populateEventTable();
+
 
 
