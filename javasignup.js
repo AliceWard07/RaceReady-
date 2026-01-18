@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+
   let NameInput = document.getElementById("Name");
   let EmailInput = document.getElementById("Email");
   let PasswordInput = document.getElementById("Password");
@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     PasswordInput.value = "";
   }
 });
+Button.addEventListener("click", signUp);
 
 
 
